@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ardstats"
+name = "ardperf"
 version = "0.1.0"
 description = "Application for sending statistics to Arduino via serial"
 authors = ["Egor Bronnikov <egorbronnikov65@gmail.com>"]
@@ -11,7 +11,7 @@ pyserial = "^3.5"
 psutil = "^5.9"
 
 [tools.poetry.scripts]
-ardstats = "ardstats:main"
+ardperf = "ardperf:main"
 
 [build-system]
 requires = ["poetry-core"]
