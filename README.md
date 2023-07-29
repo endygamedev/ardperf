@@ -77,7 +77,14 @@ of the host.
 
 Optional `--verbose` argument specifies whether to output statistics to STDOUT.
 
+License
+-------
+
+ardperf is made available under the terms of either the GPL-3.0 License.
+See the [LICENSE][LicenseFile] files for license details.
+
 [SketchSource]: ./ardperf.ino
 [ApplicationSource]: ./ardperf.py
 [ExampleImage]: ./doc/figures/example.jpg
 [SchematicImage]: ./doc/figures/schematic.png
+[LicenseFile]: ./LICENSE
