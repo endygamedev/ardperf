@@ -17,9 +17,24 @@ Hardware
 - LCD screen (16x2)
 - Jumper wires
 
-### Schematics ###
+### Schematic ###
 
-TODO
+![SchematicImage][SchematicImage]
+
+| LCD | Arduino |
+|-----|---------|
+| VSS | GND     |
+| VDD | 5V      |
+| V0  | 6       |
+| RS  | 12      |
+| RW  | GND     |
+| E   | 11      |
+| D4  | 5       |
+| D5  | 4       |
+| D6  | 3       |
+| D7  | 2       |
+| A   | 5V      |
+| K   | GND     |
 
 Software
 --------
@@ -65,3 +80,4 @@ Optional `--verbose` argument specifies whether to output statistics to STDOUT.
 [SketchSource]: ./ardperf.ino
 [ApplicationSource]: ./ardperf.py
 [ExampleImage]: ./doc/figures/example.jpg
+[SchematicImage]: ./doc/figures/schematic.png
