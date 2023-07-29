@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ardstats"
+version = "0.1.0"
+description = "Application for sending statistics to Arduino via serial"
+authors = ["Egor Bronnikov <egorbronnikov65@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyserial = "^3.5"
+psutil = "^5.9"
+
+[tools.poetry.scripts]
+ardstats = "ardstats:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
