@@ -18,7 +18,7 @@ String split(String data, char separator, int index) {
     if (data.charAt(i) == separator || i == maxIndex) {
       ++found;
       strIndex[0] = strIndex[1] + 1;
-      strIndex[1] = (i == maxIndex) ? i+1 : i;
+      strIndex[1] = (i == maxIndex) ? i + 1 : i;
     }
   }
 
