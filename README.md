@@ -13,9 +13,9 @@ Hardware
 
 ### Components ###
 
-- Arduino UNO
-- LCD screen (16x2)
-- Jumper wires
+- 1 x Arduino UNO
+- 1 x LCD screen (16x2)
+- 12 x Jumper wires
 
 ### Schematic ###
 
